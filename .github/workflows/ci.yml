@@ -82,5 +82,5 @@ jobs:
           idris2 --install-with-src
       - name: build and test
         run: |
-          make build && make test INTERACTIVE=''
+          make test INTERACTIVE=''
         shell: bash
