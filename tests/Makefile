@@ -4,7 +4,7 @@ INTERACTIVE ?= --interactive
 
 test:
 	touch /tmp/test-lsp.idr
-	./build/exec/runtests lsp $(INTERACTIVE) --only $(only)
+	./build/exec/runtests $(IDRIS2_LSP) $(INTERACTIVE) --only $(only)
 
 testbin:
 	idris2 --build tests.ipkg

@@ -1,0 +1,5 @@
+{"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":null,"rootUri":"file:///tmp/test-lsp.idr","capabilities":{"workspaceFolders":[{"uri":"file:///tmp"}]}}}
+
+{"jsonrpc":"2.0","id":1,"method":"shutdown"}
+
+{"jsonrpc":"2.0","method":"exit"}

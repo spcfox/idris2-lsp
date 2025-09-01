@@ -36,7 +36,7 @@ testbin:
 
 # usage: `make test only=messages001`
 test-only:
-	${MAKE} -C tests only=$(only)
+	${MAKE} -C tests only=$(only) IDRIS2_LSP=${TARGET}
 
 test: build testbin test-only
 
