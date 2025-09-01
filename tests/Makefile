@@ -3,7 +3,6 @@ INTERACTIVE ?= --interactive
 .PHONY: testbin test
 
 test:
-	touch /tmp/test-lsp.idr
 	./build/exec/runtests $(IDRIS2_LSP) $(INTERACTIVE) --only $(only)
 
 testbin:

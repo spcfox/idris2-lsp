@@ -1,0 +1,3 @@
+. ../../testutils.sh
+
+run_lsp Main.idr input.jsonl
