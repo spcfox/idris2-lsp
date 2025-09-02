@@ -1,5 +1,7 @@
 {"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":null,"rootUri":"file://{WORKING_DIR}/{FILE}","capabilities":{"workspaceFolders":[{"uri":"file://{WORKING_DIR}"}]}}}
 
+{"jsonrpc":"2.0","method":"initialized","params":{}}
+
 {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file://{WORKING_DIR}/{FILE}","languageId":"idris2","version":1,"text":""}}}
 
 {"jsonrpc":"2.0","id":1,"method":"shutdown"}
