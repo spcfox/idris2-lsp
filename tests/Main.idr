@@ -8,6 +8,7 @@ allTests : TestPool
 allTests = MkTestPool "Messages" [] Nothing
   [ "messages001"
   , "messages002"
+  , "messages003"
   ]
 
 main : IO ()
